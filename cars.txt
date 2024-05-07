@@ -1,0 +1,12 @@
+cars:
+
+id: INT - PRIMARY_KEY - NOTNULL - AUTO_INCREMENT - UNIQUE
+price: DECIMAL(9,2) - NOTNULL
+kilometers: FLOAT(9,2) - NOTNULL
+date_production: (DATE)  - NULL
+model: VARCHAR(255) - NULL
+seriaL_Number: TEXT - UNIQUE - INDEX - NOTNULL
+condition: VARCHAR(25) - NULL
+doors: TYNYINT - NULL 
+seats: TYNYINT - NULL
+number_of_accident: TYNYINT - NULL
